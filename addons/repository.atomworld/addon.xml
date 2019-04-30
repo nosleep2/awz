@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="repository.atomworld" name="[COLOR ghostwhite]Atom-World IPTV[/COLOR]" version="1.0.1" provider-name="Atom-World Streams">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="Atom-World  IPTV repository">
+    <info compressed="false">https://raw.githubusercontent.com/nosleep2/awr/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/nosleep2/awr/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/nosleep2/awz/master/addons/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Atom-World IPTV Repository!</summary>
+    <description></description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
